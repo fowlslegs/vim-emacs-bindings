@@ -1,1 +1,1 @@
-This plugin adds to vim the basic navigation and editing commands of emacs.
+This plugin adds to Vim the basic navigation and editing commands of emacs. In doing so, it overwrites some vim insert and command-line mode commands. Fortunately, the ones it overwrites mostly suck anyway (if you don't believe, pull up `:help index` yourself and compare it with the utility).
