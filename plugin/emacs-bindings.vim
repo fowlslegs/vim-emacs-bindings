@@ -5,7 +5,7 @@
 """ movement
 imap <C-b> <Left>
 imap <C-f> <Right>
-imap <C-a> <C-o>:call <SID>home()<CR>
+imap <C-a> <Home>
 imap <C-e> <End>
 imap <M-b> <S-Left>
 imap <M-f> <S-Right>
@@ -17,7 +17,7 @@ imap <C-/> <C-o>u
 imap <C-y> p
 imap <C-d> <Del>
 imap <C-h> <BS>
-imap <C-k> <C-r>=<SID>kill_line()<CR>
+imap <C-k> <C-o>d$
 imap <M-d> <C-o>de
 imap <M-h> <C-w>
 
