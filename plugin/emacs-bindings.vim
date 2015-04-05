@@ -14,7 +14,7 @@ imap <M-e> <C-o>}
 
 """ insertion and deletion
 imap <C-/> <C-o>u
-imap <C-y> p
+imap <C-y> <C-o>p
 imap <C-d> <Del>
 imap <C-h> <BS>
 imap <C-k> <C-o>d$
