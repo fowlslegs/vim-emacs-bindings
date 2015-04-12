@@ -1,1 +1,3 @@
-This plugin adds to Vim the basic navigation and editing commands of emacs. In doing so, it overwrites some Vim insert and command-line mode commands. Fortunately, the ones it overwrites mostly suck anyway (if you don't believe, pull up `:help index` yourself and compare the utility of the commands there with the ones herein).
+This plugin adds to Vim the basic navigation and editing commands of GNU Readline. In doing so, it overwrites some 
+Vim insert and command-line mode commands. Fortunately, the ones it overwrites mostly suck anyway (if you don't 
+believe, pull up `:help index` yourself and compare the utility of the commands there with the ones herein).
