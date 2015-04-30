@@ -16,8 +16,7 @@ imap <C-y> <C-o>p
 imap <C-d> <Del>
 imap <C-k> <C-o>d$
 imap <M-d> <C-o>de
-imap <M-<BS>> <C-w>
-imap <C-/> <C-o>u
+imap <M-BS> <C-w>
 
 "" command line mode
 
@@ -32,9 +31,9 @@ cmap <M-b> <S-Left>
 
 
 """ insertion and deletion
+cnoremap <C-/> <C-o>u
 cmap <C-y> <C-r>+
 cnoremap <C-d> <Del>
 cnoremap <C-k> <C-f>D<C-c><C-c>:<Up>
 cnoremap <M-d> <C-f>de<C-c>
-cnoremap <M-<BS>> <C-w>
-cnoremap <C-/> <C-o>u
+cnoremap <M-BS> <C-w>
